@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DD1C1771D2D4037006FA7E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD1C1761D2D4037006FA7E5 /* main.m */; };
+		0DD1C17A1D2D4037006FA7E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD1C1791D2D4037006FA7E5 /* AppDelegate.m */; };
+		0DD1C17D1D2D4037006FA7E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD1C17C1D2D4037006FA7E5 /* ViewController.m */; };
+		0DD1C1801D2D4037006FA7E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DD1C17E1D2D4037006FA7E5 /* Main.storyboard */; };
+		0DD1C1821D2D4037006FA7E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DD1C1811D2D4037006FA7E5 /* Assets.xcassets */; };
+		0DD1C1851D2D4037006FA7E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DD1C1831D2D4037006FA7E5 /* LaunchScreen.storyboard */; };
+		0DD1C1901D2D4037006FA7E5 /* MSFadeLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD1C18F1D2D4037006FA7E5 /* MSFadeLabelTests.m */; };
+		0DD1C1A01D2D440B006FA7E5 /* FadeStringView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD1C19F1D2D440B006FA7E5 /* FadeStringView.m */; };
+		0DD1C1A31D2D441D006FA7E5 /* CopyiPhoneFadeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD1C1A21D2D441D006FA7E5 /* CopyiPhoneFadeView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0DD1C18C1D2D4037006FA7E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DD1C16A1D2D4036006FA7E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DD1C1711D2D4036006FA7E5;
+			remoteInfo = MSFadeLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DD1C1721D2D4036006FA7E5 /* MSFadeLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSFadeLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DD1C1761D2D4037006FA7E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0DD1C1781D2D4037006FA7E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0DD1C1791D2D4037006FA7E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0DD1C17B1D2D4037006FA7E5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0DD1C17C1D2D4037006FA7E5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0DD1C17F1D2D4037006FA7E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0DD1C1811D2D4037006FA7E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0DD1C1841D2D4037006FA7E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0DD1C1861D2D4037006FA7E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DD1C18B1D2D4037006FA7E5 /* MSFadeLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSFadeLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DD1C18F1D2D4037006FA7E5 /* MSFadeLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSFadeLabelTests.m; sourceTree = "<group>"; };
+		0DD1C1911D2D4037006FA7E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DD1C19E1D2D440B006FA7E5 /* FadeStringView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FadeStringView.h; sourceTree = "<group>"; };
+		0DD1C19F1D2D440B006FA7E5 /* FadeStringView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FadeStringView.m; sourceTree = "<group>"; };
+		0DD1C1A11D2D441D006FA7E5 /* CopyiPhoneFadeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CopyiPhoneFadeView.h; sourceTree = "<group>"; };
+		0DD1C1A21D2D441D006FA7E5 /* CopyiPhoneFadeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CopyiPhoneFadeView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DD1C16F1D2D4036006FA7E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DD1C1881D2D4037006FA7E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DD1C1691D2D4036006FA7E5 = {
+			isa = PBXGroup;
+			children = (
+				0DD1C1741D2D4036006FA7E5 /* MSFadeLabel */,
+				0DD1C18E1D2D4037006FA7E5 /* MSFadeLabelTests */,
+				0DD1C1731D2D4036006FA7E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0DD1C1731D2D4036006FA7E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DD1C1721D2D4036006FA7E5 /* MSFadeLabel.app */,
+				0DD1C18B1D2D4037006FA7E5 /* MSFadeLabelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DD1C1741D2D4036006FA7E5 /* MSFadeLabel */ = {
+			isa = PBXGroup;
+			children = (
+				0DD1C1781D2D4037006FA7E5 /* AppDelegate.h */,
+				0DD1C1791D2D4037006FA7E5 /* AppDelegate.m */,
+				0DD1C17B1D2D4037006FA7E5 /* ViewController.h */,
+				0DD1C17C1D2D4037006FA7E5 /* ViewController.m */,
+				0DD1C19E1D2D440B006FA7E5 /* FadeStringView.h */,
+				0DD1C19F1D2D440B006FA7E5 /* FadeStringView.m */,
+				0DD1C1A11D2D441D006FA7E5 /* CopyiPhoneFadeView.h */,
+				0DD1C1A21D2D441D006FA7E5 /* CopyiPhoneFadeView.m */,
+				0DD1C17E1D2D4037006FA7E5 /* Main.storyboard */,
+				0DD1C1811D2D4037006FA7E5 /* Assets.xcassets */,
+				0DD1C1831D2D4037006FA7E5 /* LaunchScreen.storyboard */,
+				0DD1C1861D2D4037006FA7E5 /* Info.plist */,
+				0DD1C1751D2D4037006FA7E5 /* Supporting Files */,
+			);
+			path = MSFadeLabel;
+			sourceTree = "<group>";
+		};
+		0DD1C1751D2D4037006FA7E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0DD1C1761D2D4037006FA7E5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0DD1C18E1D2D4037006FA7E5 /* MSFadeLabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				0DD1C18F1D2D4037006FA7E5 /* MSFadeLabelTests.m */,
+				0DD1C1911D2D4037006FA7E5 /* Info.plist */,
+			);
+			path = MSFadeLabelTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DD1C1711D2D4036006FA7E5 /* MSFadeLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DD1C1941D2D4037006FA7E5 /* Build configuration list for PBXNativeTarget "MSFadeLabel" */;
+			buildPhases = (
+				0DD1C16E1D2D4036006FA7E5 /* Sources */,
+				0DD1C16F1D2D4036006FA7E5 /* Frameworks */,
+				0DD1C1701D2D4036006FA7E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MSFadeLabel;
+			productName = MSFadeLabel;
+			productReference = 0DD1C1721D2D4036006FA7E5 /* MSFadeLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0DD1C18A1D2D4037006FA7E5 /* MSFadeLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DD1C1971D2D4037006FA7E5 /* Build configuration list for PBXNativeTarget "MSFadeLabelTests" */;
+			buildPhases = (
+				0DD1C1871D2D4037006FA7E5 /* Sources */,
+				0DD1C1881D2D4037006FA7E5 /* Frameworks */,
+				0DD1C1891D2D4037006FA7E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DD1C18D1D2D4037006FA7E5 /* PBXTargetDependency */,
+			);
+			name = MSFadeLabelTests;
+			productName = MSFadeLabelTests;
+			productReference = 0DD1C18B1D2D4037006FA7E5 /* MSFadeLabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DD1C16A1D2D4036006FA7E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = mrscorpion;
+				TargetAttributes = {
+					0DD1C1711D2D4036006FA7E5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = GXHE3742MX;
+					};
+					0DD1C18A1D2D4037006FA7E5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 0DD1C1711D2D4036006FA7E5;
+					};
+				};
+			};
+			buildConfigurationList = 0DD1C16D1D2D4036006FA7E5 /* Build configuration list for PBXProject "MSFadeLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0DD1C1691D2D4036006FA7E5;
+			productRefGroup = 0DD1C1731D2D4036006FA7E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DD1C1711D2D4036006FA7E5 /* MSFadeLabel */,
+				0DD1C18A1D2D4037006FA7E5 /* MSFadeLabelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DD1C1701D2D4036006FA7E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DD1C1851D2D4037006FA7E5 /* LaunchScreen.storyboard in Resources */,
+				0DD1C1821D2D4037006FA7E5 /* Assets.xcassets in Resources */,
+				0DD1C1801D2D4037006FA7E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DD1C1891D2D4037006FA7E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DD1C16E1D2D4036006FA7E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DD1C17D1D2D4037006FA7E5 /* ViewController.m in Sources */,
+				0DD1C1A01D2D440B006FA7E5 /* FadeStringView.m in Sources */,
+				0DD1C1A31D2D441D006FA7E5 /* CopyiPhoneFadeView.m in Sources */,
+				0DD1C17A1D2D4037006FA7E5 /* AppDelegate.m in Sources */,
+				0DD1C1771D2D4037006FA7E5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DD1C1871D2D4037006FA7E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DD1C1901D2D4037006FA7E5 /* MSFadeLabelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DD1C18D1D2D4037006FA7E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DD1C1711D2D4036006FA7E5 /* MSFadeLabel */;
+			targetProxy = 0DD1C18C1D2D4037006FA7E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0DD1C17E1D2D4037006FA7E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DD1C17F1D2D4037006FA7E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0DD1C1831D2D4037006FA7E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DD1C1841D2D4037006FA7E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0DD1C1921D2D4037006FA7E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0DD1C1931D2D4037006FA7E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0DD1C1951D2D4037006FA7E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = MSFadeLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mr5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0DD1C1961D2D4037006FA7E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = MSFadeLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mr5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0DD1C1981D2D4037006FA7E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MSFadeLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mrscorpion.MSFadeLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MSFadeLabel.app/MSFadeLabel";
+			};
+			name = Debug;
+		};
+		0DD1C1991D2D4037006FA7E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MSFadeLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mrscorpion.MSFadeLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MSFadeLabel.app/MSFadeLabel";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DD1C16D1D2D4036006FA7E5 /* Build configuration list for PBXProject "MSFadeLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DD1C1921D2D4037006FA7E5 /* Debug */,
+				0DD1C1931D2D4037006FA7E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DD1C1941D2D4037006FA7E5 /* Build configuration list for PBXNativeTarget "MSFadeLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DD1C1951D2D4037006FA7E5 /* Debug */,
+				0DD1C1961D2D4037006FA7E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0DD1C1971D2D4037006FA7E5 /* Build configuration list for PBXNativeTarget "MSFadeLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DD1C1981D2D4037006FA7E5 /* Debug */,
+				0DD1C1991D2D4037006FA7E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DD1C16A1D2D4036006FA7E5 /* Project object */;
+}
